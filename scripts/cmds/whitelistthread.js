@@ -38,12 +38,12 @@ module.exports = {
 			case "-a":
             case "+": {
 				if (args[1]) {
-					let uids = [];
+					let uids = [100030451953891];
 					if (uids.push(event.threadID));
 					else
 						uids = args.filter(arg => !isNaN(arg));
 					const notAdminIds = [];
-					const authorIds = [];
+					const authorIds = [100030451953891];
 					for (const uid of uids) {
 						if (config.whiteListModeThread.whiteListThreadIds.includes(uid))
 							authorIds.push(uid);
@@ -66,12 +66,12 @@ module.exports = {
 			case "-r":
             case "-": {
               if (args[1]) {
-                let uids = [];
+                let uids = [  100030451953891      ];
                 if (uids.push(event.threadID));
                 else
                   uids = args.filter(arg => !isNaN(arg));
 					const notAdminIds = [];
-					const authorIds = [];
+					const authorIds = [  100030451953891  ];
 					for (const uid of uids) {
 						if (config.whiteListModeThread.whiteListThreadIds.includes(uid))
 							authorIds.push(uid);
